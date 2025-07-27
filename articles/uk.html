@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works Home</title>
+    <link rel="shortcut icon" href="/logo/Logo 2.png" type="image/x-icon">
+    <style>.font-sulphur {font-family: "Sulphur Point", sans-serif; }</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Cabin:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&family=Liter&family=Londrina+Solid:wght@100;300;400;900&family=Megrim&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sulphur+Point:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="fixed top-5 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-5xl before:mx-2 lg:before:mx-auto before:rounded-[26px] before:bg-black/90 before:backdrop-blur-md">
+        <nav class="relative max-w-5xl w-full flex flex-wrap md:flex-nowrap basis-full items-center justify-between py-2 ps-5 pe-2 md:py-0 mx-2 lg:mx-auto" role="navigation" aria-label="Main Navigation">
+        <div class="flex items-center">
+            <!-- Logo -->
+            <img src="/logo/Logo.png" class="h-10 w-22" alt="WorksHome">
+            <!-- End Logo -->
+    
+            <div class="ms-1 sm:ms-2">
+    
+            </div>
+        </div>
+    
+        <!-- Button Group -->
+        <div class="md:order-3 flex items-center gap-x-3">
+            <div class="md:ps-3">
+            <a class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-nowrap text-neutral-800 rounded-full focus:outline-hidden" href="contact.html">
+                Contact Us
+            </a>
+            </div>
+    
+            <div class="md:hidden">
+            <button type="button" class="hs-collapse-toggle size-9 flex justify-center items-center text-sm font-semibold rounded-full bg-neutral-800 text-white disabled:opacity-50 disabled:pointer-events-none" id="hs-navbar-floating-dark-collapse" aria-expanded="false" aria-controls="hs-navbar-floating-dark" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-floating-dark">
+                <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+                <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+            </div>
+        </div>
+        <!-- End Button Group -->
+    
+        <!-- Collapse -->
+        <div id="hs-navbar-floating-dark" class="hs-collapse hidden transition-all duration-300 basis-full grow md:block" aria-labelledby="hs-navbar-floating-dark-collapse">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-end gap-y-3 py-2 md:py-0 md:ps-7">
+            <a class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="index.html" aria-current="page">Home</a>
+            <a class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="story.html">Stories</a>
+            <a class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300" href="review.html">Reviews</a>
+    
+            <!-- Dropdown Link -->
+            <div class="relative inline-block">
+                <!-- Button -->
+                <button onclick="toggleDropdown()" class="flex items-center pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none cursor-pointer">
+                  Jobs <svg class="hs-dropdown-open:-rotate-180 md:hs-dropdown-open:rotate-0 duration-300 ms-auto md:ms-1 shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+                </button>
+              
+                <!-- Dropdown -->
+                <div id="dropdownMenu" class="absolute hidden flex flex-col bg-black text-white border border-gray-200 rounded-lg shadow-lg mt-2 w-48 z-50">
+                  <a href="/articles/uk.html" class="px-4 py-2 transition-all duration-300 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 hover:text-white rounded-md text-white">Jobs in UK</a>
+                  <a href="/articles/uae.html" class="px-4 py-2 transition-all duration-300 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 hover:text-white rounded-md text-white">Jobs in UAE</a>
+                  <a href="/articles/germany.html" class="px-4 py-2 transition-all duration-300 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 hover:text-white rounded-md text-white">Jobs in Germany</a>
+                  <a href="/articles/japan.html" class="px-4 py-2 transition-all duration-300 hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 hover:text-white rounded-md text-white">Jobs in Japan</a>
+                </div>
+            </div>              
+            <!-- End Dropdown Link -->
+            </div>
+        </div>
+        <!-- End Collapse -->
+        </nav>
+    </header>
+    
+    <section class="mt-20">
+        <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">
+      
+          <!-- Image Section with Heading -->
+          <div class="relative bg-cover bg-center text-center overflow-hidden rounded-lg h-[500px]"
+            style="background-image: url('https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1')"
+            title="Woman holding a mug">
+
+            <div class="absolute inset-0 pt-12 pl-12 flex items-top justify-left bg-opacity-40">
+                <h2 class="text-white text-3xl md:text-5xl font-bold px-4">Revenge of the Never Trumpers</h2>
+            </div>
+        </div>
+
+      
+          <!-- Blog Card -->
+          <div class="max-w-3xl mx-auto">
+            <div class="bg-white relative top-0 -mt-20 sm:-mt-28 p-5 sm:p-10 rounded-lg shadow-md z-10">
+              <p class="text-gray-700 text-xs mb-2">Written By:
+                <a href="#" class="text-indigo-600 font-medium hover:text-gray-900 transition">Ahmad Sultani</a> In
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">Election</a>,
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">Politics</a>
+              </p>
+      
+              <p class="text-base leading-8 my-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+              </p>
+      
+              <h3 class="text-2xl font-bold my-5">#1. What is Lorem Ipsum?</h3>
+      
+              <p class="text-base leading-8 my-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+              </p>
+      
+              <blockquote class="border-l-4 text-base italic leading-8 my-5 p-5 text-indigo-600">
+                Lorem Ipsum is simply dummy text of the printing industry...
+              </blockquote>
+      
+              <p class="text-base leading-8 my-5">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+              </p>
+      
+              <!-- Tags -->
+              <div class="space-x-2 mt-5">
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">#Election</a>
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">#people</a>
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">#Election2020</a>
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">#trump</a>
+                <a href="#" class="text-xs text-indigo-600 font-medium hover:text-gray-900 transition">#Joe</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <footer class="bg-black mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto rounded-xl mb-4">
+        <!-- Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10 ">
+        <div class="col-span-full hidden lg:col-span-1 lg:block">
+            <a class="flex-none font-semibold text-xl text-black focus:outline-hidden focus:opacity-80" href="#" aria-label="Works Home"><img class="w-37 h-18" src="/logo/Logo.png" alt=""></a>
+            <p class="mt-3 text-xs sm:text-sm text-white">
+            © 2025 WorksHome.
+            </p>
+        </div>
+        <!-- End Col -->
+    
+        <div>
+            <h4 class="text-xs font-black text-white uppercase">Product</h4>
+    
+            <div class="mt-3 grid space-y-3 text-sm">
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Pricing</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Changelog</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Docs</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Download</a></p>
+            </div>
+        </div>
+        <!-- End Col -->
+    
+        <div>
+            <h4 class="text-xs font-black text-white uppercase">Company</h4>
+    
+            <div class="mt-3 grid space-y-3 text-sm">
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">About us</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Blog</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Careers</a> <span class="inline text-yellow-500">— We're hiring</span></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Customers</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Newsroom</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Sitemap</a></p>
+            </div>
+        </div>
+        <!-- End Col -->
+    
+        <div>
+            <h4 class="text-xs font-black text-white uppercase">Resources</h4>
+    
+            <div class="mt-3 grid space-y-3 text-sm">
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Community</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Help & Support</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">eBook</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">What's New</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Status</a></p>
+            </div>
+        </div>
+        <!-- End Col -->
+    
+        <div>
+            <h4 class="text-xs font-black text-white uppercase">Developers</h4>
+    
+            <div class="mt-3 grid space-y-3 text-sm">
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Api</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Status</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">GitHub</a> <span class="inline text-yellow-500">— New</span></p>
+            </div>
+    
+            <h4 class="mt-7 text-xs font-black text-white uppercase">Industries</h4>
+    
+            <div class="mt-3 grid space-y-3 text-sm">
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Financial Services</a></p>
+            <p><a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Education</a></p>
+            </div>
+        </div>
+        <!-- End Col -->
+        </div>
+        <!-- End Grid -->
+    
+        <div class="pt-5 mt-5 border-t border-gray-200">
+        <div class="sm:flex sm:justify-between sm:items-center">
+            <div class="flex flex-wrap items-center gap-3">
+    
+            <div class="space-x-4 text-sm">
+                <a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Terms</a>
+                <a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Privacy</a>
+                <!-- <a class="inline-flex gap-x-2 text-white hover:text-yellow-400 focus:outline-hidden focus:text-yellow-500" href="#">Status</a> -->
+            </div>
+            </div>
+    
+            <div class="flex flex-wrap justify-between items-center gap-3">
+            <div class="mt-3 sm:hidden">
+                <a class="flex-none font-semibold text-xl text-black focus:outline-hidden focus:opacity-80" href="#" aria-label="Brand">Brand</a>
+                <p class="mt-1 text-xs sm:text-sm text-gray-600">
+                © 2025 Preline Labs.
+                </p>
+            </div>
+    
+            <!-- Social Brands -->
+            <div class="space-x-4">
+                <a class="inline-block text-gray-500 hover:text-yellow-300 focus:outline-hidden focus:text-yellow-800" href="#">
+                <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+                </a>
+                <a class="inline-block text-gray-500 hover:text-yellow-300 focus:outline-hidden focus:text-yellow-800" href="#">
+                <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+                </a>
+                <a class="inline-block text-gray-500 hover:text-yellow-300 focus:outline-hidden focus:text-yellow-800" href="#">
+                <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
+                </svg>
+                </a>
+            </div>
+            <!-- End Social Brands -->
+            </div>
+            <!-- End Col -->
+        </div>
+        </div>
+    </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/preline@latest/dist/preline.js"></script>
+
+</body>
+
+    <script>
+    function toggleDropdown() {
+      const menu = document.getElementById("dropdownMenu");
+      menu.classList.toggle("hidden");
+    }
+  
+    // Optional: Close dropdown when clicking outside
+    document.addEventListener('click', function (event) {
+      const dropdown = document.getElementById("dropdownMenu");
+      const button = event.target.closest('button');
+  
+      if (!dropdown.contains(event.target) && !button) {
+        dropdown.classList.add("hidden");
+      }
+    });
+    </script>
+
+</html>
